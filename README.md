@@ -1,24 +1,30 @@
-# firebase-hosting
+# Firebase Hosting
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+## Build the project
 ```
 npm run build
 ```
 
-### Lints and fixes files
+## Install & configure Firebase tools
+
 ```
-npm run lint
+npm install -g firebase-tools
+firebase login
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Add a Firebase project
+
+```
+firebase use --add
+```
+
+## Deploy the project
+
+```
+firebase deploy -P <project-alias>
+```

@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "firebase-hosting-vue",
+    "staging": "firebase-hosting-vue-staging",
+    "production": "firebase-hosting-vue"
+  }
+}
